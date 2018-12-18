@@ -1,0 +1,12 @@
+Jan 3, 2019 ~
+budget 1000 ~ 1000
+trip:
+    ~ Jan 6, 2019
+    goto "Las Vegas"
+    budget 300 ~ 600
+    guestnum 2 ~ 2
+trip:
+    ~ Jan 9, 2019
+    goto "Philly"
+    budget 500 ~ 700
+    guestnum 1 ~ 2

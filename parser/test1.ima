@@ -1,0 +1,24 @@
+Dec 20, 2018 ~
+guestnum 1 ~ 2
+hhdist by walking 2000 ~ 5000 m
+budget 500 ~ 1000
+if budget 1000 ~ 1200 then servicelevel 4 ~ 5
+trip:
+    ~ Dec 23, 2018
+    goto "Osaka, Japan"
+    budget 400 ~ 500
+    dhdist to "shopping center" by walking 2000 ~ 5000 m
+    bedtype twin, double
+trip:
+    ~ Dec 26, 2018
+    goto "Fukui, Japan"
+    guestnum 1 ~ 2
+    servicelevel 2 ~ 4
+    budget 100 ~ 300
+    if hhdura by walking 10 ~ 15 min then budget 200 ~ 500
+    if servicelevel 4 ~ 5 then budget 300 ~ 500
+trip:
+    ~ Dec 30, 2018
+    goto "Tokyo, Japan"
+    budget 100 ~ 400
+    if hhdura by walking 30 ~ 40 min then budget 50 ~ 200
